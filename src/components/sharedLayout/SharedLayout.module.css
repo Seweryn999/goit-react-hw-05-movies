@@ -1,0 +1,28 @@
+.header {
+    width: 100%;
+    padding: 20px 50px;
+    box-shadow: 0 7px 15px #7A7A7A;
+}
+
+.header__nav {
+    display: flex;
+    gap: 10px;
+}
+
+.header__link {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: black
+}
+
+.active {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: red
+}

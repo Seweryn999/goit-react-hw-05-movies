@@ -1,0 +1,17 @@
+.movie {
+    padding: 20px 50px;
+}
+
+.movie__item {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+
+.movie__img {
+    width: 250px;
+    object-fit: scale-down;
+    display: block;
+    padding-bottom: 10px;
+}

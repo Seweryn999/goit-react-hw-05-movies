@@ -1,0 +1,23 @@
+.cast {
+    padding: 20px 50px;
+}
+
+.cast__item {
+    list-style-type: none;
+
+}
+
+.cast__img {
+    width: 80px;
+    height: auto;
+}
+
+.cast__dot {
+    position: relative;
+}
+
+.cast__dot::before {
+    position: absolute;
+    content: ' \25CF';
+    left: -20px;
+}
